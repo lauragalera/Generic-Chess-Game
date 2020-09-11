@@ -1,0 +1,4 @@
+<map id="TaulerEscacs" name="TaulerEscacs">
+<area shape="rect" id="node2" href="$class_peca.html" title="Peça d&#39;escacs que es mou sobre un tauler efectuant moviments permesos. " alt="" coords="199,160,332,516"/>
+<area shape="rect" id="node7" href="$class_posicio.html" title="Una posició que correspon a una casella d&#39;un tauler, amb files de &#39;a&#39; a &#39;p&#39; i amb columnes de 1 a 16..." alt="" coords="540,233,641,443"/>
+</map>

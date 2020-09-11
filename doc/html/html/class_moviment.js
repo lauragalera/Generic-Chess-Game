@@ -1,0 +1,27 @@
+var class_moviment =
+[
+    [ "subTipus", "enum_moviment_1_1sub_tipus.html", "enum_moviment_1_1sub_tipus" ],
+    [ "Moviment", "class_moviment.html#a35a7080efa28c5783b31dd5dae669d30", null ],
+    [ "columna", "class_moviment.html#a5662eb54a0a73fd9bf4812c24adffd23", null ],
+    [ "comparteixenDesti", "class_moviment.html#a07b04954e00cc719fe0fc3ff59953f88", null ],
+    [ "consultarSubtipus", "class_moviment.html#a9104ad2df84410191a9715499bed16ea", null ],
+    [ "dividirMov", "class_moviment.html#a58c30270d255e2eeb4b2d6918eb9835f", null ],
+    [ "esCombinat", "class_moviment.html#a7e7291e48456356a84ee1351cbca01b0", null ],
+    [ "esDiagonal", "class_moviment.html#a1eeb85cb27ffe72798d94af00cd42c4c", null ],
+    [ "esIgual", "class_moviment.html#a3dfdab68e8f09fa16921ba7439b55aac", null ],
+    [ "esRectilini", "class_moviment.html#a02b639b3b9692c997bb2a5111a7b6375", null ],
+    [ "esValorCaptSalta", "class_moviment.html#a4150689794b4fd3724f51cb6b14b13f1", null ],
+    [ "esValorPermesCol", "class_moviment.html#a780270061f95b10d4f714f5e1caa94ba", null ],
+    [ "esValorPermesFila", "class_moviment.html#a7f2fe420975184e32e7dda6af80b593b", null ],
+    [ "fila", "class_moviment.html#a367edf3b45b1f52d25aba40ce9954931", null ],
+    [ "inclou", "class_moviment.html#aac0149095cc51b55d5aa27bc6a41d556", null ],
+    [ "invertir", "class_moviment.html#ada9da146011e9551783efb98b216afbc", null ],
+    [ "movCaptura", "class_moviment.html#af8ff1bdc5086a65b68522fdba582aa77", null ],
+    [ "movSalta", "class_moviment.html#adce50ca5ecf5424b44f202724f1373d9", null ],
+    [ "ordreGeneric", "class_moviment.html#a19360e33eccfa6eba2a21614511dc75b", null ],
+    [ "toString", "class_moviment.html#a0b816491ac40b8a68d8c901db2e14d22", null ],
+    [ "_capturar", "class_moviment.html#ae56bc1202a934f065513035d69f5e79d", null ],
+    [ "_columna", "class_moviment.html#a193c866d301bcacadfb8e528b0855461", null ],
+    [ "_fila", "class_moviment.html#a94673413754043d67c6e0e98ecddfcbe", null ],
+    [ "_saltar", "class_moviment.html#af349d2f9aa897dac896081bd0899b608", null ]
+];

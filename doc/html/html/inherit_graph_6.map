@@ -1,0 +1,5 @@
+<map id="Jerarquia Gràfica de la Classe" name="Jerarquia Gràfica de la Classe">
+<area shape="rect" id="node1" href="$interface_jugada.html" title="Interfície que defineix el comportament bàsic d&#39;una jugada qualsevol. " alt="" coords="5,31,69,57"/>
+<area shape="rect" id="node2" href="$class_jugada_enroc.html" title="Tipus de jugada en què es realitza un moviment especial anomenat enroc, que permet moure alhora dues ..." alt="" coords="126,5,225,32"/>
+<area shape="rect" id="node3" href="$class_jugada_ordinaria.html" title="Tipus de jugada que implica el moviment d&#39;una peça a una altra posició. " alt="" coords="117,56,233,83"/>
+</map>

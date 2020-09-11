@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['pair',['Pair',['../class_pair.html#acca27d706c2996bb061353a477cafef5',1,'Pair']]],
+  ['parse',['parse',['../class_j_s_o_nparser.html#a5563cc96c6dc2610331ecd46b1fe43a6',1,'JSONparser']]],
+  ['partida',['Partida',['../class_partida.html#a7c12d0e39f85a44ac72f22777086a0ed',1,'Partida']]],
+  ['pathimg',['pathImg',['../class_peca.html#a7c16191aab545e213986566fd9683cfa',1,'Peca']]],
+  ['peca',['Peca',['../class_peca.html#ad871c60016d2309cc00fe235d7185f1a',1,'Peca.Peca(String nom, char simbol, String imatgeBlanca, String imatgeNegra, int valor, List&lt; Moviment &gt; mov, List&lt; Moviment &gt; movIni, boolean promo, boolean invulnerable, HashMap&lt; String, Enroc &gt; enrocs)'],['../class_peca.html#acc042ba462db094d289f7ed376834fbf',1,'Peca.Peca(Peca p)']]],
+  ['pecadisponible',['pecaDisponible',['../class_partida.html#a7baf2bba1dd9c3975b5456a8e69d8ebb',1,'Partida']]],
+  ['pecagrafica',['PecaGrafica',['../class_peca_grafica.html#af4c1fdcfc52f2a1dde2e8a3070608d18',1,'PecaGrafica']]],
+  ['pecamovimentlegal',['pecaMovimentLegal',['../class_tauler_escacs.html#af1610b0edde3724a2fecff288076ee05',1,'TaulerEscacs']]],
+  ['pecatauler',['pecaTauler',['../class_partida.html#ab3095bc65173375388704d1d6ec19d5c',1,'Partida']]],
+  ['pecespromocionables',['pecesPromocionables',['../class_partida.html#a51057d4c7bad908a3ef3fcbb0e7b5aef',1,'Partida']]],
+  ['posicio',['Posicio',['../class_posicio.html#ac3911cd6a78ff5608df2dd74a87c7758',1,'Posicio.Posicio(char columna, int fila)'],['../class_posicio.html#af73e452541ae9311d1045982153e7667',1,'Posicio.Posicio(int columna, int fila)'],['../class_posicio.html#afd6d5974483328ac85576a235e1bb74f',1,'Posicio.Posicio(String str)'],['../class_posicio.html#a91b1a83128c1c10b57926728fca6a178',1,'Posicio.Posicio(Posicio pos)']]],
+  ['posicionarpeces',['posicionarPeces',['../class_tauler_escacs.html#a2f09c4b538ea78b93fdeb373229d27b6',1,'TaulerEscacs']]],
+  ['posicionsdestimov',['posicionsDestiMov',['../class_tauler_escacs.html#a4f84a1988a03b8e4e7dec907d371d5a5',1,'TaulerEscacs']]],
+  ['posicionsfinalenroc',['posicionsFinalEnroc',['../class_tauler_escacs.html#a477731a325a56d8500fcf99ac04eeb73',1,'TaulerEscacs']]],
+  ['posicionspecacaptura',['posicionsPecaCaptura',['../class_tauler_escacs.html#a131a6fb309090770a4bd04ff5338a0bc',1,'TaulerEscacs']]],
+  ['posicioprimera',['posicioPrimera',['../class_jugada_enroc.html#a316fa16f17b333648936a9c0113d8773',1,'JugadaEnroc']]],
+  ['posiciopromocio',['posicioPromocio',['../class_partida.html#aff0a9836ec3a037afb7b058fed1b212a',1,'Partida']]],
+  ['posiciosegona',['posicioSegona',['../class_jugada_enroc.html#af0d09e05f6be63a152c9af77d68949d8',1,'JugadaEnroc']]],
+  ['postauler',['posTauler',['../class_escacs_grafic.html#a6f5d61d3d6a1b83a734961e8c8b7314a',1,'EscacsGrafic']]],
+  ['potenrocar',['potEnrocar',['../class_peca.html#a9533c37b540399f307a41a8ec8869753',1,'Peca']]],
+  ['potpromocionar',['potPromocionar',['../class_peca.html#a30637418cc707b87b1106608214879f1',1,'Peca']]],
+  ['primerapeca',['primeraPeca',['../class_enroc.html#a0fb47b7ae9f06cf067c95522a7d0ddc9',1,'Enroc']]],
+  ['promocionarpeca',['promocionarPeca',['../class_jugador_c_p_u.html#a774e41b9af92eb983eabf94ad85419f5',1,'JugadorCPU']]]
+];

@@ -1,0 +1,4 @@
+<map id="Jugada" name="Jugada">
+<area shape="rect" id="node2" href="$class_jugada_enroc.html" title="Tipus de jugada en què es realitza un moviment especial anomenat enroc, que permet moure alhora dues ..." alt="" coords="5,131,192,369"/>
+<area shape="rect" id="node3" href="$class_jugada_ordinaria.html" title="Tipus de jugada que implica el moviment d&#39;una peça a una altra posició. " alt="" coords="216,160,352,340"/>
+</map>

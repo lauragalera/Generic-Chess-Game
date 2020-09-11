@@ -1,0 +1,6 @@
+<map id="Partida" name="Partida">
+<area shape="rect" id="node2" href="$class_partida_1_1_dades.html" title="Conté els atributs de Partida que poden ser modificats a cada torn i, per tant, és equiparable a l&#39;es..." alt="" coords="451,1129,575,1265"/>
+<area shape="rect" id="node3" href="$class_tauler_escacs.html" title="Espai on es disputa una partida d&#39;escacs. " alt="" coords="418,608,609,1067"/>
+<area shape="rect" id="node4" href="$class_peca.html" title="Peça d&#39;escacs que es mou sobre un tauler efectuant moviments permesos. " alt="" coords="199,160,332,516"/>
+<area shape="rect" id="node9" href="$class_posicio.html" title="Una posició que correspon a una casella d&#39;un tauler, amb files de &#39;a&#39; a &#39;p&#39; i amb columnes de 1 a 16..." alt="" coords="540,233,641,443"/>
+</map>

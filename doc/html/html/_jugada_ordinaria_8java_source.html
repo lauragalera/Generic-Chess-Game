@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>JocEscacsGeneric: Fitxer de Codi /home/david/Documentos/UdG/ProPro/github/projecte-2020-b8/src/JugadaOrdinaria.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">JocEscacsGeneric
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Joc d&#39;escacs genèric</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_jugada_ordinaria_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">JugadaOrdinaria.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_jugada_ordinaria_8java.html">Veure la documentació d'aquest fitxer.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html">   11</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_jugada_ordinaria.html">JugadaOrdinaria</a> <span class="keyword">implements</span> <a class="code" href="interface_jugada.html">Jugada</a> {</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html#a2d2ea1a8e6414a8f66fc2bc0fe4945c1">   12</a></span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_ordinaria.html#a2d2ea1a8e6414a8f66fc2bc0fe4945c1">_origen</a>;    </div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html#a49157134881220d3af02ab46ad4e9f23">   13</a></span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_ordinaria.html#a49157134881220d3af02ab46ad4e9f23">_desti</a>;     </div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html#ace5c290f1f58664f33845dea3068ea24">   14</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> String <a class="code" href="class_jugada_ordinaria.html#ace5c290f1f58664f33845dea3068ea24">regex</a> = <span class="stringliteral">&quot;^[a-z]\\d+ +[a-z]\\d+$&quot;</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html#a2e0bde8af543698a8f5c757bc31babda">   24</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_jugada_ordinaria.html#a2e0bde8af543698a8f5c757bc31babda">JugadaOrdinaria</a>(<a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_ordinaria.html#abce0644d4b656321e6fb76889fb4f814">origen</a>, <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_ordinaria.html#a81f1f6e0ccfe5ac277cb58a41b4435df">desti</a>) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        _origen = <a class="code" href="class_jugada_ordinaria.html#abce0644d4b656321e6fb76889fb4f814">origen</a>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        _desti = <a class="code" href="class_jugada_ordinaria.html#a81f1f6e0ccfe5ac277cb58a41b4435df">desti</a>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html#a786acd7bb6d9364da3212247c61c903e">   35</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_jugada_ordinaria.html#a786acd7bb6d9364da3212247c61c903e">JugadaOrdinaria</a>(String jugada) {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">char</span> columna = jugada.charAt(0);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">int</span> fila = Integer.parseInt(jugada.substring(1,jugada.indexOf(<span class="stringliteral">&quot; &quot;</span>)));</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        _origen = <span class="keyword">new</span> <a class="code" href="class_posicio.html">Posicio</a>(columna,fila);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">int</span> ultimEspai = jugada.lastIndexOf(<span class="stringliteral">&quot; &quot;</span>);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        columna = jugada.charAt(ultimEspai+1);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        fila = Integer.parseInt(jugada.substring(ultimEspai+2));</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        _desti = <span class="keyword">new</span> <a class="code" href="class_posicio.html">Posicio</a>(columna,fila);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html#abce0644d4b656321e6fb76889fb4f814">   50</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_ordinaria.html#abce0644d4b656321e6fb76889fb4f814">origen</a>() {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_jugada_ordinaria.html#a2d2ea1a8e6414a8f66fc2bc0fe4945c1">_origen</a>;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div><div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html#a81f1f6e0ccfe5ac277cb58a41b4435df">   57</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_ordinaria.html#a81f1f6e0ccfe5ac277cb58a41b4435df">desti</a>() {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_jugada_ordinaria.html#a49157134881220d3af02ab46ad4e9f23">_desti</a>;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    @Override</div><div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html#a4946374466ab45e904415bdeab7a0c8f">   75</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="class_jugada_ordinaria.html#a4946374466ab45e904415bdeab7a0c8f">efectuarJugada</a>(<a class="code" href="class_tauler_escacs.html">TaulerEscacs</a> tauler, <span class="keywordtype">int</span> torn) <span class="keywordflow">throws</span> <a class="code" href="class_excepcio_jugada_erronia.html">ExcepcioJugadaErronia</a> {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">if</span>(!tauler.esPotFerJugadaOrdinaria(<span class="keyword">this</span>,torn))</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_excepcio_jugada_erronia.html">ExcepcioJugadaErronia</a>(<span class="stringliteral">&quot;Error: no es pot fer la jugada ordinària&quot;</span>);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> tauler.aplicarJugadaOrdinaria(<span class="keyword">this</span>);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    @Override</div><div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="class_jugada_ordinaria.html#a3e5372d84ebc0681df54a595b1a23f40">   82</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="class_jugada_ordinaria.html#a3e5372d84ebc0681df54a595b1a23f40">toString</a>() {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> _origen + <span class="stringliteral">&quot;\n&quot;</span> + <a class="code" href="class_jugada_ordinaria.html#a49157134881220d3af02ab46ad4e9f23">_desti</a>;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div><div class="ttc" id="class_jugada_ordinaria_html_a2e0bde8af543698a8f5c757bc31babda"><div class="ttname"><a href="class_jugada_ordinaria.html#a2e0bde8af543698a8f5c757bc31babda">JugadaOrdinaria.JugadaOrdinaria</a></div><div class="ttdeci">JugadaOrdinaria(Posicio origen, Posicio desti)</div><div class="ttdoc">Constructor amb paràmetres. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00024">JugadaOrdinaria.java:24</a></div></div>
+<div class="ttc" id="class_jugada_ordinaria_html_a786acd7bb6d9364da3212247c61c903e"><div class="ttname"><a href="class_jugada_ordinaria.html#a786acd7bb6d9364da3212247c61c903e">JugadaOrdinaria.JugadaOrdinaria</a></div><div class="ttdeci">JugadaOrdinaria(String jugada)</div><div class="ttdoc">Constructor amb paràmetres. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00035">JugadaOrdinaria.java:35</a></div></div>
+<div class="ttc" id="class_jugada_ordinaria_html_a3e5372d84ebc0681df54a595b1a23f40"><div class="ttname"><a href="class_jugada_ordinaria.html#a3e5372d84ebc0681df54a595b1a23f40">JugadaOrdinaria.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00082">JugadaOrdinaria.java:82</a></div></div>
+<div class="ttc" id="class_jugada_ordinaria_html_abce0644d4b656321e6fb76889fb4f814"><div class="ttname"><a href="class_jugada_ordinaria.html#abce0644d4b656321e6fb76889fb4f814">JugadaOrdinaria.origen</a></div><div class="ttdeci">Posicio origen()</div><div class="ttdoc">L&amp;#39;orígen d&amp;#39;aquesta Jugada. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00050">JugadaOrdinaria.java:50</a></div></div>
+<div class="ttc" id="class_jugada_ordinaria_html_a81f1f6e0ccfe5ac277cb58a41b4435df"><div class="ttname"><a href="class_jugada_ordinaria.html#a81f1f6e0ccfe5ac277cb58a41b4435df">JugadaOrdinaria.desti</a></div><div class="ttdeci">Posicio desti()</div><div class="ttdoc">El destí d&amp;#39;aquesta Jugada. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00057">JugadaOrdinaria.java:57</a></div></div>
+<div class="ttc" id="class_jugada_ordinaria_html_ace5c290f1f58664f33845dea3068ea24"><div class="ttname"><a href="class_jugada_ordinaria.html#ace5c290f1f58664f33845dea3068ea24">JugadaOrdinaria.regex</a></div><div class="ttdeci">static final String regex</div><div class="ttdoc">Expresió regular que verifica el format d&amp;#39;una jugada ordinària. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00014">JugadaOrdinaria.java:14</a></div></div>
+<div class="ttc" id="class_posicio_html"><div class="ttname"><a href="class_posicio.html">Posicio</a></div><div class="ttdoc">Una posició que correspon a una casella d&amp;#39;un tauler, amb files de &amp;#39;a&amp;#39; a &amp;#39;p&amp;#39; i amb columnes de 1 a 16...</div><div class="ttdef"><b>Definition:</b> <a href="_posicio_8java_source.html#l00014">Posicio.java:14</a></div></div>
+<div class="ttc" id="class_jugada_ordinaria_html_a2d2ea1a8e6414a8f66fc2bc0fe4945c1"><div class="ttname"><a href="class_jugada_ordinaria.html#a2d2ea1a8e6414a8f66fc2bc0fe4945c1">JugadaOrdinaria._origen</a></div><div class="ttdeci">final Posicio _origen</div><div class="ttdoc">Posició on es troba la peça que es vol moure. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00012">JugadaOrdinaria.java:12</a></div></div>
+<div class="ttc" id="class_jugada_ordinaria_html_a4946374466ab45e904415bdeab7a0c8f"><div class="ttname"><a href="class_jugada_ordinaria.html#a4946374466ab45e904415bdeab7a0c8f">JugadaOrdinaria.efectuarJugada</a></div><div class="ttdeci">boolean efectuarJugada(TaulerEscacs tauler, int torn)</div><div class="ttdoc">S&amp;#39;efectua la jugada i es comunica si s&amp;#39;ha capturat alguna peça. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00075">JugadaOrdinaria.java:75</a></div></div>
+<div class="ttc" id="class_jugada_ordinaria_html"><div class="ttname"><a href="class_jugada_ordinaria.html">JugadaOrdinaria</a></div><div class="ttdoc">Tipus de jugada que implica el moviment d&amp;#39;una peça a una altra posició. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00011">JugadaOrdinaria.java:11</a></div></div>
+<div class="ttc" id="class_jugada_ordinaria_html_a49157134881220d3af02ab46ad4e9f23"><div class="ttname"><a href="class_jugada_ordinaria.html#a49157134881220d3af02ab46ad4e9f23">JugadaOrdinaria._desti</a></div><div class="ttdeci">final Posicio _desti</div><div class="ttdoc">Posició a on es vol moure la peça. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_ordinaria_8java_source.html#l00013">JugadaOrdinaria.java:13</a></div></div>
+<div class="ttc" id="class_tauler_escacs_html"><div class="ttname"><a href="class_tauler_escacs.html">TaulerEscacs</a></div><div class="ttdoc">Espai on es disputa una partida d&amp;#39;escacs. </div><div class="ttdef"><b>Definition:</b> <a href="_tauler_escacs_8java_source.html#l00013">TaulerEscacs.java:13</a></div></div>
+<div class="ttc" id="class_excepcio_jugada_erronia_html"><div class="ttname"><a href="class_excepcio_jugada_erronia.html">ExcepcioJugadaErronia</a></div><div class="ttdoc">Excepció usada per la incapacitat d&amp;#39;efectuar una jugada. </div><div class="ttdef"><b>Definition:</b> <a href="_excepcio_jugada_erronia_8java_source.html#l00012">ExcepcioJugadaErronia.java:12</a></div></div>
+<div class="ttc" id="interface_jugada_html"><div class="ttname"><a href="interface_jugada.html">Jugada</a></div><div class="ttdoc">Interfície que defineix el comportament bàsic d&amp;#39;una jugada qualsevol. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_8java_source.html#l00011">Jugada.java:11</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_aa394cd1d9abb8ffe941d9aaafca8d03.html">github</a></li><li class="navelem"><a class="el" href="dir_5b1ede7b405a7493905c295f1d138c40.html">projecte-2020-b8</a></li><li class="navelem"><a class="el" href="dir_125aff976010836dcb3dfd8e03419d12.html">src</a></li><li class="navelem"><a class="el" href="_jugada_ordinaria_8java.html">JugadaOrdinaria.java</a></li>
+    <li class="footer">Generat per
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

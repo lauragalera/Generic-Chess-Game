@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>JocEscacsGeneric: Fitxer de Codi /home/david/Documentos/UdG/ProPro/github/projecte-2020-b8/src/JugadaEnroc.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">JocEscacsGeneric
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Joc d&#39;escacs genèric</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_jugada_enroc_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">JugadaEnroc.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_jugada_enroc_8java.html">Veure la documentació d'aquest fitxer.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html">   11</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_jugada_enroc.html">JugadaEnroc</a> <span class="keyword">implements</span> <a class="code" href="interface_jugada.html">Jugada</a>{</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#a668f2f08b7b3b2200276341adf16c14b">   12</a></span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_enroc.html#a668f2f08b7b3b2200276341adf16c14b">_posPecaPrimera</a>;    </div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#ab48488dbee0727c1600a53713e029fad">   13</a></span>&#160;    <span class="keyword">private</span> <span class="keyword">final</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_enroc.html#ab48488dbee0727c1600a53713e029fad">_posPecaSegona</a>;     </div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#aac512d7497feea6614dd8d1260b7843f">   14</a></span>&#160;    <span class="keyword">private</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_enroc.html#aac512d7497feea6614dd8d1260b7843f">_posPecaFPrimera</a>;   </div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#ad633fe80a6724c06d90e61bf821d93ab">   15</a></span>&#160;    <span class="keyword">private</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_enroc.html#ad633fe80a6724c06d90e61bf821d93ab">_posPecaFSegona</a>;    </div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#acd3e25cbf87173569bf464d6a387e0f8">   16</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> String <a class="code" href="class_jugada_enroc.html#acd3e25cbf87173569bf464d6a387e0f8">regex</a> = <span class="stringliteral">&quot;^[a-z]\\d+ +- +[a-z]\\d+$&quot;</span>; </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#adf840a4de32ddf671411eed6d33fe67b">   24</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_jugada_enroc.html#adf840a4de32ddf671411eed6d33fe67b">JugadaEnroc</a>(<a class="code" href="class_posicio.html">Posicio</a> posPrimera, <a class="code" href="class_posicio.html">Posicio</a> posSegona){</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        _posPecaPrimera = posPrimera;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        _posPecaSegona = posSegona;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        _posPecaFPrimera = null;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        _posPecaFSegona = null;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#a753d0ff0cae177dc309a0121d6d67d47">   37</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_jugada_enroc.html#a753d0ff0cae177dc309a0121d6d67d47">JugadaEnroc</a>(String jugada){</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordtype">char</span> columna = jugada.charAt(0);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">int</span> fila = Integer.parseInt(jugada.substring(1,jugada.indexOf(<span class="stringliteral">&quot; &quot;</span>)));</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;         _posPecaPrimera = <span class="keyword">new</span> <a class="code" href="class_posicio.html">Posicio</a>(columna,fila);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordtype">int</span> ultimEspai = jugada.lastIndexOf(<span class="stringliteral">&quot; &quot;</span>);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        columna = jugada.charAt(ultimEspai+1);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        fila = Integer.parseInt(jugada.substring(ultimEspai+2));</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;         _posPecaSegona = <span class="keyword">new</span> <a class="code" href="class_posicio.html">Posicio</a>(columna,fila);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#a316fa16f17b333648936a9c0113d8773">   49</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_enroc.html#a316fa16f17b333648936a9c0113d8773">posicioPrimera</a>(){</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_jugada_enroc.html#a668f2f08b7b3b2200276341adf16c14b">_posPecaPrimera</a>;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#af0d09e05f6be63a152c9af77d68949d8">   54</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_posicio.html">Posicio</a> <a class="code" href="class_jugada_enroc.html#af0d09e05f6be63a152c9af77d68949d8">posicioSegona</a>(){</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_jugada_enroc.html#ab48488dbee0727c1600a53713e029fad">_posPecaSegona</a>;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    @Override</div><div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#a556e6c39c549843c6704f1e00e5dc8e0">   69</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">boolean</span> <a class="code" href="class_jugada_enroc.html#a556e6c39c549843c6704f1e00e5dc8e0">efectuarJugada</a>(<a class="code" href="class_tauler_escacs.html">TaulerEscacs</a> tauler, <span class="keywordtype">int</span> torn) <span class="keywordflow">throws</span> <a class="code" href="class_excepcio_jugada_erronia.html">ExcepcioJugadaErronia</a>{</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">if</span>(!tauler.esPotFerJugadaEnroc(<span class="keyword">this</span>, torn))</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_excepcio_jugada_erronia.html">ExcepcioJugadaErronia</a>(<span class="stringliteral">&quot;Error: no es pot fer la jugada enroc&quot;</span>);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        tauler.aplicarJugadaEnroc(<span class="keyword">this</span>);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#a52498d7dea7a7bdd68f01be10ddf7b5a">   77</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_jugada_enroc.html#a52498d7dea7a7bdd68f01be10ddf7b5a">assignarPosFinalPrimera</a>(<a class="code" href="class_posicio.html">Posicio</a> pos){</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        _posPecaFPrimera = pos;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#a37ba7bb2f4dfb1829eed633f4b766f80">   82</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_jugada_enroc.html#a37ba7bb2f4dfb1829eed633f4b766f80">assignarPosFinalSegona</a>(<a class="code" href="class_posicio.html">Posicio</a> pos){</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        _posPecaFSegona = pos;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    @Override</div><div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="class_jugada_enroc.html#a53d4de64270f1af0d4f93afc2a53c430">   88</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="class_jugada_enroc.html#a53d4de64270f1af0d4f93afc2a53c430">toString</a>() {</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> _posPecaPrimera+<span class="stringliteral">&quot; - &quot;</span>+_posPecaSegona+ <span class="stringliteral">&quot;\n&quot;</span> + _posPecaFPrimera+<span class="stringliteral">&quot; - &quot;</span>+<a class="code" href="class_jugada_enroc.html#ad633fe80a6724c06d90e61bf821d93ab">_posPecaFSegona</a>;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div><div class="ttc" id="class_jugada_enroc_html_adf840a4de32ddf671411eed6d33fe67b"><div class="ttname"><a href="class_jugada_enroc.html#adf840a4de32ddf671411eed6d33fe67b">JugadaEnroc.JugadaEnroc</a></div><div class="ttdeci">JugadaEnroc(Posicio posPrimera, Posicio posSegona)</div><div class="ttdoc">S&amp;#39;ha creat una jugada de tipus enroc. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00024">JugadaEnroc.java:24</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_a556e6c39c549843c6704f1e00e5dc8e0"><div class="ttname"><a href="class_jugada_enroc.html#a556e6c39c549843c6704f1e00e5dc8e0">JugadaEnroc.efectuarJugada</a></div><div class="ttdeci">boolean efectuarJugada(TaulerEscacs tauler, int torn)</div><div class="ttdoc">S&amp;#39;efectua la jugada JugadaEnroc al TaulerEscacs t i es comunica si s&amp;#39;ha capturat alguna peça...</div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00069">JugadaEnroc.java:69</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_acd3e25cbf87173569bf464d6a387e0f8"><div class="ttname"><a href="class_jugada_enroc.html#acd3e25cbf87173569bf464d6a387e0f8">JugadaEnroc.regex</a></div><div class="ttdeci">static final String regex</div><div class="ttdoc">Expressio regular per que defineix el partó de JugadaEnroc. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00016">JugadaEnroc.java:16</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_a53d4de64270f1af0d4f93afc2a53c430"><div class="ttname"><a href="class_jugada_enroc.html#a53d4de64270f1af0d4f93afc2a53c430">JugadaEnroc.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdoc">Retorna un String que representa aquesta jugada. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00088">JugadaEnroc.java:88</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_a37ba7bb2f4dfb1829eed633f4b766f80"><div class="ttname"><a href="class_jugada_enroc.html#a37ba7bb2f4dfb1829eed633f4b766f80">JugadaEnroc.assignarPosFinalSegona</a></div><div class="ttdeci">void assignarPosFinalSegona(Posicio pos)</div><div class="ttdoc">S&amp;#39;ha anotat la posició final a la segona peça de la jugada un cop fet l&amp;#39;enroc. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00082">JugadaEnroc.java:82</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_a316fa16f17b333648936a9c0113d8773"><div class="ttname"><a href="class_jugada_enroc.html#a316fa16f17b333648936a9c0113d8773">JugadaEnroc.posicioPrimera</a></div><div class="ttdeci">Posicio posicioPrimera()</div><div class="ttdoc">Retorna la posició de la primera peça d&amp;#39;aquesta jugada enroc. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00049">JugadaEnroc.java:49</a></div></div>
+<div class="ttc" id="class_posicio_html"><div class="ttname"><a href="class_posicio.html">Posicio</a></div><div class="ttdoc">Una posició que correspon a una casella d&amp;#39;un tauler, amb files de &amp;#39;a&amp;#39; a &amp;#39;p&amp;#39; i amb columnes de 1 a 16...</div><div class="ttdef"><b>Definition:</b> <a href="_posicio_8java_source.html#l00014">Posicio.java:14</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_aac512d7497feea6614dd8d1260b7843f"><div class="ttname"><a href="class_jugada_enroc.html#aac512d7497feea6614dd8d1260b7843f">JugadaEnroc._posPecaFPrimera</a></div><div class="ttdeci">Posicio _posPecaFPrimera</div><div class="ttdoc">Posicio final de la primera peça que el jugador ha entrat per a la jugada de tipus enroc...</div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00014">JugadaEnroc.java:14</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_a668f2f08b7b3b2200276341adf16c14b"><div class="ttname"><a href="class_jugada_enroc.html#a668f2f08b7b3b2200276341adf16c14b">JugadaEnroc._posPecaPrimera</a></div><div class="ttdeci">final Posicio _posPecaPrimera</div><div class="ttdoc">Posicio de la primera peça que el jugador ha entrat per a la jugada de tipus enroc. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00012">JugadaEnroc.java:12</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_ad633fe80a6724c06d90e61bf821d93ab"><div class="ttname"><a href="class_jugada_enroc.html#ad633fe80a6724c06d90e61bf821d93ab">JugadaEnroc._posPecaFSegona</a></div><div class="ttdeci">Posicio _posPecaFSegona</div><div class="ttdoc">Posicio final de la segona peça que el jugador ha entrat per a la jugada de tipus enroc...</div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00015">JugadaEnroc.java:15</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_a753d0ff0cae177dc309a0121d6d67d47"><div class="ttname"><a href="class_jugada_enroc.html#a753d0ff0cae177dc309a0121d6d67d47">JugadaEnroc.JugadaEnroc</a></div><div class="ttdeci">JugadaEnroc(String jugada)</div><div class="ttdoc">S&amp;#39;ha creat una jugada de tipus enroc. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00037">JugadaEnroc.java:37</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_a52498d7dea7a7bdd68f01be10ddf7b5a"><div class="ttname"><a href="class_jugada_enroc.html#a52498d7dea7a7bdd68f01be10ddf7b5a">JugadaEnroc.assignarPosFinalPrimera</a></div><div class="ttdeci">void assignarPosFinalPrimera(Posicio pos)</div><div class="ttdoc">S&amp;#39;ha anotat la posició final de la primera peça de la jugada un cop fet l&amp;#39;enroc. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00077">JugadaEnroc.java:77</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_ab48488dbee0727c1600a53713e029fad"><div class="ttname"><a href="class_jugada_enroc.html#ab48488dbee0727c1600a53713e029fad">JugadaEnroc._posPecaSegona</a></div><div class="ttdeci">final Posicio _posPecaSegona</div><div class="ttdoc">Posicio de la segona peça que el jugador ha entrat per a la jugada de tipus enroc. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00013">JugadaEnroc.java:13</a></div></div>
+<div class="ttc" id="class_tauler_escacs_html"><div class="ttname"><a href="class_tauler_escacs.html">TaulerEscacs</a></div><div class="ttdoc">Espai on es disputa una partida d&amp;#39;escacs. </div><div class="ttdef"><b>Definition:</b> <a href="_tauler_escacs_8java_source.html#l00013">TaulerEscacs.java:13</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html_af0d09e05f6be63a152c9af77d68949d8"><div class="ttname"><a href="class_jugada_enroc.html#af0d09e05f6be63a152c9af77d68949d8">JugadaEnroc.posicioSegona</a></div><div class="ttdeci">Posicio posicioSegona()</div><div class="ttdoc">Retorna la posició de la segona peça d&amp;#39;aquesta jugada enroc. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00054">JugadaEnroc.java:54</a></div></div>
+<div class="ttc" id="class_jugada_enroc_html"><div class="ttname"><a href="class_jugada_enroc.html">JugadaEnroc</a></div><div class="ttdoc">Tipus de jugada en què es realitza un moviment especial anomenat enroc, que permet moure alhora dues ...</div><div class="ttdef"><b>Definition:</b> <a href="_jugada_enroc_8java_source.html#l00011">JugadaEnroc.java:11</a></div></div>
+<div class="ttc" id="class_excepcio_jugada_erronia_html"><div class="ttname"><a href="class_excepcio_jugada_erronia.html">ExcepcioJugadaErronia</a></div><div class="ttdoc">Excepció usada per la incapacitat d&amp;#39;efectuar una jugada. </div><div class="ttdef"><b>Definition:</b> <a href="_excepcio_jugada_erronia_8java_source.html#l00012">ExcepcioJugadaErronia.java:12</a></div></div>
+<div class="ttc" id="interface_jugada_html"><div class="ttname"><a href="interface_jugada.html">Jugada</a></div><div class="ttdoc">Interfície que defineix el comportament bàsic d&amp;#39;una jugada qualsevol. </div><div class="ttdef"><b>Definition:</b> <a href="_jugada_8java_source.html#l00011">Jugada.java:11</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_aa394cd1d9abb8ffe941d9aaafca8d03.html">github</a></li><li class="navelem"><a class="el" href="dir_5b1ede7b405a7493905c295f1d138c40.html">projecte-2020-b8</a></li><li class="navelem"><a class="el" href="dir_125aff976010836dcb3dfd8e03419d12.html">src</a></li><li class="navelem"><a class="el" href="_jugada_enroc_8java.html">JugadaEnroc.java</a></li>
+    <li class="footer">Generat per
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
+  </ul>
+</div>
+</body>
+</html>

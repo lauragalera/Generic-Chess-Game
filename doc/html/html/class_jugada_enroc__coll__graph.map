@@ -1,0 +1,4 @@
+<map id="JugadaEnroc" name="JugadaEnroc">
+<area shape="rect" id="node2" href="$interface_jugada.html" title="Interfície que defineix el comportament bàsic d&#39;una jugada qualsevol. " alt="" coords="5,71,136,149"/>
+<area shape="rect" id="node3" href="$class_posicio.html" title="Una posició que correspon a una casella d&#39;un tauler, amb files de &#39;a&#39; a &#39;p&#39; i amb columnes de 1 a 16..." alt="" coords="160,5,261,215"/>
+</map>
