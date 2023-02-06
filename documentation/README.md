@@ -1,7 +1,5 @@
-# Projecte de Programació (GEINF - UdG)
+# Chess game application
 
-## Primavera 2020
+## Spring 2020
 
-> Aquest directori conté la documentació demanada en format PDF (diagrama de classes, proves efectuades i manual d'usuari)
-
-> Per visualitzar els pdf correctament es recomana descarregar-los. A la visualització prèvia del github no es mostren algunes parts. 
+> This directory contains the documentation in PDF (class diagram, tester and user guide). Please, download the pdf to visualize all the parts correctly. 
