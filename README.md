@@ -17,6 +17,7 @@ This chess game application differs from the traditional chess game because the 
 * Castling, that can happen between any two pieces, not only king and rook
 
 It includes a terminal mode and a graphic interface, with also the possibility of playing with an AI or having two AIs playing against each other. 
+
 ![image board](documentation/board.png)
 
 The program detects check, checkmate and draw. The player can request stalemate. Moreover, it lets undo and redo as many movements as possible.
