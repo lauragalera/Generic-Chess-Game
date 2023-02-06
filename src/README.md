@@ -1,5 +1,5 @@
-# Projecte de Programació (GEINF - UdG)
+# Chess game application
 
 ## Primavera 2020
 
-> Aquest directori conté el codi font (fitxers .java)
+> This directory contains the code of this application
