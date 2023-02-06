@@ -1,5 +1,5 @@
-# Projecte de Programació (GEINF - UdG)
+# Chess game application
 
-## Primavera 2020
+## Spring 2020
 
-> Aquest directori conté el fitxer JAR de l'aplicació
+> This directory containt the JAR
