@@ -1,5 +1,5 @@
 # Chess game application
 
-## Primavera 2020
+## Spring 2020
 
 > This directory contains the code of this application
